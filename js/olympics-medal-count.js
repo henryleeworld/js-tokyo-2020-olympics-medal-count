@@ -29,7 +29,7 @@ $(function() {
         ],
         columnDefs: [{
             targets: 1,
-            data: "title",
+            data: 'title',
             render: function(data, type, row, meta) {
                 return '<img src="' + row.icon + '" class="" width="20" height="20"/> ' + country[row.id];
             }
@@ -37,6 +37,7 @@ $(function() {
         language: {
             url: 'https://cdn.datatables.net/plug-ins/1.10.25/i18n/Chinese-traditional.json',
         },
+        order: [[5, 'desc']],
         responsive: true
     });
 });

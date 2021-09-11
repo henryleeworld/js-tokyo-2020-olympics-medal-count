@@ -35,7 +35,7 @@ $(function() {
             }
         }],
         language: {
-            url: 'https://cdn.datatables.net/plug-ins/1.11.0/i18n/zh_Hant.json',
+            url: 'https://cdn.datatables.net/plug-ins/1.11.1/i18n/zh_Hant.json',
         },
         order: [[5, 'desc']],
         responsive: true
